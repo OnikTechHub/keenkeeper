@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Imran Chowdhury",
-    "picture": "https://i.ibb.co.com/NdCvjx8f/img2.png",
+    "picture": "https://i.ibb.co.com/7t6206X7/Imran-Chowdhury.avif",
     "email": "imran.c@gmail.com",
     "days_since_contact": 10,
     "status": "almost due",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Rakib Hasan",
-    "picture": "https://i.ibb.co.com/NgRtZ060/img4.png",
+    "picture": "https://i.ibb.co.com/qLXYRjsC/Rakib-Hasan.avif",
     "email": "rakib.hasan@outlook.com",
     "days_since_contact": 21,
     "status": "overdue",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Tanvir Ahmed",
-    "picture": "https://i.ibb.co.com/LDqM8CMk/img6.png",
+    "picture": "https://i.ibb.co.com/bjCRKPRv/Tanvir-Ahmed.avif",
     "email": "tanvir.ahmed@gmail.com",
     "days_since_contact": 3,
     "status": "on-track",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Mahmudul Karim",
-    "picture": "https://i.ibb.co.com/Gfc0xqtn/img8.png",
+    "picture": "https://i.ibb.co.com/DDb3trfQ/Mahmudul-Karim.avif",
     "email": "mahmudul.karim@gmail.com",
     "days_since_contact": 8,
     "status": "on-track",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "Sabbir Hossain",
-    "picture": "https://i.ibb.co.com/nsh5gVKc/img9.png",
+    "picture": "https://i.ibb.co.com/zhPf39SX/Sabbir-Hossain.jpg",
     "email": "sabbir.hossain@gmail.com",
     "days_since_contact": 14,
     "status": "almost due",
