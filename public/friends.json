@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Ayesha Rahman",
+    "picture": "https://i.ibb.co.com/d4Dq09Sj/Ayesha-Rahman.avif",
+    "email": "ayesha.rahman@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["university", "close friend"],
+    "bio": "We studied computer science together at university. She now works as a software engineer in Dhaka.",
+    "goal": 14,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 2,
+    "name": "Imran Chowdhury",
+    "picture": "https://i.ibb.co.com/NdCvjx8f/img2.png",
+    "email": "imran.c@gmail.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["office", "gym buddy"],
+    "bio": "Former colleague and current gym partner. We usually catch up after workouts.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 3,
+    "name": "Farhana Sultana",
+    "picture": "https://i.ibb.co.com/39zmq4JZ/Farhana-Sultana.avif",
+    "email": "farhana.sultana@yahoo.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["family friend"],
+    "bio": "Family friend since childhood. She recently started her own clothing business.",
+    "goal": 14,
+    "next_due_date": "2026-04-23"
+  },
+  {
+    "id": 4,
+    "name": "Rakib Hasan",
+    "picture": "https://i.ibb.co.com/NgRtZ060/img4.png",
+    "email": "rakib.hasan@outlook.com",
+    "days_since_contact": 21,
+    "status": "overdue",
+    "tags": ["school", "football"],
+    "bio": "We played football together in school. He now coaches a local youth team.",
+    "goal": 14,
+    "next_due_date": "2026-03-27"
+  },
+  {
+    "id": 5,
+    "name": "Nusrat Jahan",
+    "picture": "https://i.ibb.co.com/k6mPHgzx/Nusrat-Jahan.avif",
+    "email": "nusrat.jahan@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["university", "project partner"],
+    "bio": "Worked on multiple university projects together. Currently pursuing a master's degree abroad.",
+    "goal": 14,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 6,
+    "name": "Tanvir Ahmed",
+    "picture": "https://i.ibb.co.com/LDqM8CMk/img6.png",
+    "email": "tanvir.ahmed@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["startup", "mentor"],
+    "bio": "Met at a startup event. He mentors me on business ideas and entrepreneurship.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 7,
+    "name": "Sharmeen Akter",
+    "picture": "https://i.ibb.co.com/svfbt65P/Sharmeen-Akter.avif",
+    "email": "sharmeen.akter@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["neighbor", "close friend"],
+    "bio": "Neighbor and one of my closest friends. We often have long evening chats on the rooftop.",
+    "goal": 14,
+    "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 8,
+    "name": "Mahmudul Karim",
+    "picture": "https://i.ibb.co.com/Gfc0xqtn/img8.png",
+    "email": "mahmudul.karim@gmail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["travel", "photography"],
+    "bio": "Travel companion who loves photography. We've explored several places in Bangladesh together.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 9,
+    "name": "Sabbir Hossain",
+    "picture": "https://i.ibb.co.com/nsh5gVKc/img9.png",
+    "email": "sabbir.hossain@gmail.com",
+    "days_since_contact": 14,
+    "status": "almost due",
+    "tags": ["freelance", "tech"],
+    "bio": "Met through freelancing work online. We often discuss web development trends and projects.",
+    "goal": 14,
+    "next_due_date": "2026-04-14"
+  },
+  {
+    "id": 10,
+    "name": "Tania Islam",
+    "picture": "https://i.ibb.co.com/5hPxGkF5/Tania.avif",
+    "email": "tania.islam@gmail.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["school", "art"],
+    "bio": "School friend who is passionate about painting and art exhibitions. We used to attend art fairs together.",
+    "goal": 14,
+    "next_due_date": "2026-03-20"
+  }
+]

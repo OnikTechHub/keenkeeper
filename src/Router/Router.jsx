@@ -5,11 +5,13 @@ import TimeLine from "../components/TimelinePage/TimeLine";
 
 import Home from "../components/Homepage/Home";
 import StatsPage from "../components/StatsPage/StatsPage";
+import NotFound from "../pages/NotFound";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>,
+    errorElement: <NotFound />,
     children: [
       {
         index: true,
@@ -25,6 +27,6 @@ export const router = createBrowserRouter([
         element: <StatsPage />,
       },
     ],
-    // errorElement: <ErrorPage />,
+    
   },
 ]);
