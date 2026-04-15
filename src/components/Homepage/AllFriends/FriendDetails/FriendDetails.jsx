@@ -1,17 +1,38 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useParams } from 'react-router';
 import useData from '../../../../hooks/useData';
 import { RiseLoader } from 'react-spinners';
 import { BsClock } from 'react-icons/bs';
 import { MdArchive, MdDelete } from 'react-icons/md';
 import { FaPhoneAlt, FaRegCommentDots, FaVideo } from 'react-icons/fa';
+import { FriendProvider } from '../../../../Contexts/Contexts';
 
 const FriendDetails = () => {
     const { id } = useParams()
     console.log(id)
     const { friends, loading } = useData()
     const data = friends.find((friend) => friend.id == id)
-    console.log(data)
+    // console.log(data)
+    const {call,setCall,text,setText,video,setVideo} = useContext(FriendProvider)
+
+    
+
+    const handleCall=()=>{
+        setCall([...call,data])
+    }
+
+    const handleText=()=>{
+        setText([...text,data])
+    }
+
+    const handleVideo=()=>{
+        setVideo([...video,data])
+    }
+    
+
+
+
+
     if (loading) return (
         <div className='flex justify-center items-center h-64'>
             <RiseLoader color='#244D3F' />
@@ -121,19 +142,19 @@ const FriendDetails = () => {
 
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
 
-                            <button className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg hover:bg-gray-200">
+                            <button onClick={handleCall} className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg hover:bg-gray-200">
                                 <FaPhoneAlt />
                                 <span className="mt-2 text-sm">Call</span>
                             </button>
 
-                            <button className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg hover:bg-gray-200">
+                            <button onClick={handleText} className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg hover:bg-gray-200">
                                 <FaRegCommentDots />
                                 <span className="mt-2 text-sm">Text</span>
                             </button>
 
-                            <button className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg hover:bg-gray-200">
+                            <button onClick={handleVideo} className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg hover:bg-gray-200">
                                 <FaVideo />
-                                <span className="mt-2 text-sm">Video</span>
+                                <span  className="mt-2 text-sm">Video</span>
                             </button>
 
                         </div>
@@ -149,3 +170,5 @@ const FriendDetails = () => {
 };
 
 export default FriendDetails;
+
+
