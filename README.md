@@ -3,7 +3,7 @@
 KeenKeeper is a professional web application built to help users nurture and maintain their personal connections. Designed with a sleek, Figma-style interface, it allows users to track interactions, set goals, and visualize their social health.
 
 ## 🔗 Live Link
-[Click here to view the Live Site](https://keen-keeper.netlify.app/)
+[https://keen-keeper.com](https://keen-keeper.netlify.app/)
 
 ## ✨ Key Features
 * **Relationship Dashboard**: Categorizes friends based on status like "on-track", "almost due", or "overdue".
@@ -13,7 +13,8 @@ KeenKeeper is a professional web application built to help users nurture and mai
 * **Responsive UI**: Fully optimized for mobile, tablet, and desktop using Tailwind CSS and DaisyUI.
 
 ## 🛠️ Tech Stack
-* **Frontend**: React.js 
+* **Frontend**: React.js
+* **Routing**: React Router DOM
 * **Styling**: Tailwind CSS & DaisyUI
 * **Icons**: React Icons
 * **Data Visualization**: Recharts
