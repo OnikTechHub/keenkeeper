@@ -1,5 +1,5 @@
 import FriendsCard from './FriendsCard';
-import { PropagateLoader } from 'react-spinners';
+import { GridLoader} from 'react-spinners';
 import useData from '../../../hooks/useData';
 
 const AllFriends = () => {
@@ -7,7 +7,7 @@ const AllFriends = () => {
 
     if (loading) return (
         <div className='flex justify-center items-center h-64'>
-            <PropagateLoader color='#244D3F' />
+            <GridLoader color='#244D3F' />
         </div>
     );
 
