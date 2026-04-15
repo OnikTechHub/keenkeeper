@@ -9,9 +9,9 @@ const TimeLine = () => {
 
     const [filter, setFilter] = useState("all");
     const allActivities = [
-        ...call.map(item => ({ ...item, type: "call" })),
-        ...text.map(item => ({ ...item, type: "text" })),
-        ...video.map(item => ({ ...item, type: "video" }))
+        ...call.map((item, i) => ({ ...item, type: "call", uniqueId: item.id + "-call-" + i })),
+        ...text.map((item, i) => ({ ...item, type: "text", uniqueId: item.id + "-text-" + i })),
+        ...video.map((item, i) => ({ ...item, type: "video", uniqueId: item.id + "-video-" + i }))
     ];
 
     const filteredActivities =
@@ -39,9 +39,9 @@ const TimeLine = () => {
                 <div>
                     {
                         filteredActivities.map((item) => {
-                            if (item.type === "call") return <CallCard key={item.id} data={item} />;
-                            if (item.type === "text") return <TextCard key={item.id} data={item} />;
-                            if (item.type === "video") return <VedioCard key={item.id} data={item} />;
+                            if (item.type === "call") return <CallCard key={item.uniqueId} data={item} />;
+                            if (item.type === "text") return <TextCard key={item.uniqueId} data={item} />;
+                            if (item.type === "video") return <VedioCard key={item.uniqueId} data={item} />;
                             return null;
                         })
                     }
