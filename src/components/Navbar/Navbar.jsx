@@ -1,22 +1,39 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'; 
+import { NavLink } from 'react-router-dom';
+import { FaHome } from "react-icons/fa";
+import { FaChartLine } from "react-icons/fa";
+import { RiTimeLine } from 'react-icons/ri';
 
 const Navbar = () => {
   const links = (
     <>
-      <NavLink to="/" className={({ isActive }) => isActive ? "px-4 p-2 text-white bg-[#244D3F] rounded-lg" : "p-2 text-gray-500"}>Home</NavLink>
-      <NavLink to="/TimeLine" className={({ isActive }) => isActive ? "px-4 p-2 text-white bg-[#244D3F] rounded-lg" : "p-2 text-gray-500"}>Timeline</NavLink>
-      <NavLink to="/Stats" className={({ isActive }) => isActive ? "px-4 p-2 text-white bg-[#244D3F] rounded-lg" : "p-2 text-gray-500"}>Stats</NavLink>
+      <NavLink to="/" className={({ isActive }) => isActive ? "px-4 p-2 text-white bg-[#244D3F] rounded-lg flex items-center gap-2" : "p-2 text-gray-500 flex items-center gap-2"}
+      >
+        <FaHome />
+        Home
+      </NavLink>
+      <NavLink to="/TimeLine" className={({ isActive }) => isActive ? "px-4 p-2 text-white bg-[#244D3F] rounded-lg flex items-center gap-2" : "p-2 text-gray-500 flex items-center gap-2"}
+      >
+        <RiTimeLine />
+        Timeline
+      </NavLink>
+      <NavLink to="/Stats" NavLink
+        to="/Stats"
+        className={({ isActive }) => isActive ? "px-4 p-2 text-white bg-[#244D3F] rounded-lg flex items-center gap-2" : "p-2 text-gray-500 flex items-center gap-2"}
+      >
+        <FaChartLine />
+        Stats
+      </NavLink>
     </>
   )
 
   return (
     <div className="navbar bg-base-100 shadow-sm ">
       <div className='w-11/12 mx-auto flex items-center justify-between'>
-        
-        
+
+
         <div className="flex-1 flex items-center">
-         
+
           <div className="dropdown lg:hidden">
             <label tabIndex={0} className="btn btn-ghost p-0 mr-2">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -27,7 +44,7 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          
+
           <a className="text-2xl md:text-5xl font-bold">Keen<span className='text-[#244D3F]'>Keeper</span></a>
         </div>
 
